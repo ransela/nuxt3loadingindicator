@@ -8,8 +8,8 @@ definePageMeta({
   layout: 'other',
 });
 
-const { data, pending, error, refresh } = await useAsyncData('mountains', () =>
-  stall(5000)
+const { data, pending, error, refresh } = await useAsyncData('mountainssss', () =>
+  stall(3000)
 );
 
 async function stall(stallTime = 3000) {
